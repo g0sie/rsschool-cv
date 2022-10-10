@@ -63,3 +63,9 @@ I am a student of mathematics with a bachelor's degree. I want to develop myself
 - **BS in Mathematics** - University of Wrocław, Wrocław
 
   2019 - 2022
+
+## Languages
+
+- **English** - Proficient, according to [EF SET](https://www.efset.org/cert/5y2Qon)
+
+- **Polish** - Native
