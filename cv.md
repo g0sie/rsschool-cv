@@ -39,3 +39,12 @@ I am a student of mathematics with a bachelor's degree. I want to develop myself
     Wersow is a Polish youtuber. The app presents another video of her everyday. In the future it will be possible to collect them and comment on them.
 
     **Django REST Framework, React, Typescript**
+
+- ### Simple React app
+
+  - https://github.com/g0sie/frontend4beginners
+  - https://hatsunemiku.netlify.app/
+
+    Made on FrontEnd 4 Beginners course to learn basics of React.
+
+    **React, Typescript**
