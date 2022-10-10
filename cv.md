@@ -29,3 +29,13 @@ I am a student of mathematics with a bachelor's degree. I want to develop myself
     An app made for training kendama tricks. You can learn by practicing and reaching next levels. It provides a database of tricks with youtube tutorials and a feature that suggest you a random trick to practice.
 
     **Django, Docker, Gmail API, Bootstrap**
+
+- ### Everyday another Wersow's video
+
+  - https://github.com/g0sie/wersow-project
+  - https://wersow.netlify.app/
+  - https://wersow-api.herokuapp.com/
+
+    Wersow is a Polish youtuber. The app presents another video of her everyday. In the future it will be possible to collect them and comment on them.
+
+    **Django REST Framework, React, Typescript**
