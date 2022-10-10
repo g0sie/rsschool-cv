@@ -48,3 +48,8 @@ I am a student of mathematics with a bachelor's degree. I want to develop myself
     Made on FrontEnd 4 Beginners course to learn basics of React.
 
     **React, Typescript**
+
+## Certificates
+
+- [FrontEnd 4 Beginners, DaftAcademy - 2022](https://drive.google.com/file/d/1xqWvoBXFi1DsfcAzhdgkn5YIHu4EhEBX/view?usp=sharing)
+- [Python Level UP, DaftAcademy - 2021](https://drive.google.com/file/d/1CsiVBVhp8BBr9EUAD9se1C0-7-HsN2eV/view?usp=sharing)
