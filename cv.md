@@ -18,3 +18,14 @@ I am a student of mathematics with a bachelor's degree. I want to develop myself
 - Javascript, Typescript - in progress
 - React - in progress
 - Git, GitHub
+
+## Projects
+
+- ### Kendama progress tracker
+
+  - https://github.com/g0sie/kendama-progress-tracker
+  - https://your-kendama-trainer.herokuapp.com/
+
+    An app made for training kendama tricks. You can learn by practicing and reaching next levels. It provides a database of tricks with youtube tutorials and a feature that suggest you a random trick to practice.
+
+    **Django, Docker, Gmail API, Bootstrap**
