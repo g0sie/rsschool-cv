@@ -23,8 +23,8 @@ I am a student of mathematics with a bachelor's degree. I want to develop myself
 
 - ### Kendama progress tracker
 
-  - [https://github.com/g0sie/kendama-progress-tracker](https://github.com/g0sie/kendama-progress-tracker)
-  - [https://your-kendama-trainer.herokuapp.com/](https://your-kendama-trainer.herokuapp.com/)
+  - https://github.com/g0sie/kendama-progress-tracker
+  - https://your-kendama-trainer.herokuapp.com/
 
     An app made for training kendama tricks. You can learn by practicing and reaching next levels. It provides a database of tricks with youtube tutorials and a feature that suggest you a random trick to practice.
 
