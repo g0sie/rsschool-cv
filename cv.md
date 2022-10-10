@@ -53,3 +53,13 @@ I am a student of mathematics with a bachelor's degree. I want to develop myself
 
 - [FrontEnd 4 Beginners, DaftAcademy - 2022](https://drive.google.com/file/d/1xqWvoBXFi1DsfcAzhdgkn5YIHu4EhEBX/view?usp=sharing)
 - [Python Level UP, DaftAcademy - 2021](https://drive.google.com/file/d/1CsiVBVhp8BBr9EUAD9se1C0-7-HsN2eV/view?usp=sharing)
+
+## Education
+
+- **MS in Mathematics** - University of Wrocław, Wrocław
+
+  2022 - Present
+
+- **BS in Mathematics** - University of Wrocław, Wrocław
+
+  2019 - 2022
