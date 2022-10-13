@@ -3,3 +3,38 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  background-color: #0eb8b5;
+  color: white;
+}
+
+.cv {
+  margin: 30px auto;
+  align-items: center;
+  max-width: 1600px;
+  padding: 20px;
+  border-radius: 50px;
+  background: linear-gradient(145deg, #07605f, #097270);
+  box-shadow: 20px 20px 60px #075b59, -20px -20px 60px #097b79;
+}
+
+header {
+  display: flex;
+  padding: 20px;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: solid 1px #0eb8b5;
+}
+
+header h1 {
+  font-family: "Roboto Mono", monospace;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+header img {
+  width: 20%;
+  border-radius: 55% 45% 43% 57% / 59% 57% 43% 41%;
+}
