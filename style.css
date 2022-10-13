@@ -8,6 +8,7 @@
   --aside-width: 30%;
   --main-width: calc(100% - var(--aside-width));
   --border: solid 1px #0eb8b5;
+  --light-blue: #b6fdfc;
 }
 
 body {
@@ -27,13 +28,13 @@ footer {
 }
 
 a {
-  color: #b6fdfc;
+  color: var(--light-blue);
   text-decoration: none;
-  border-bottom: 0px solid #b6fdfc;
+  border-bottom: 0px solid var(--light-blue);
 }
 
 a:hover {
-  border-bottom: 1px solid #b6fdfc;
+  border-bottom: 1px solid var(--light-blue);
 }
 
 .cv {
@@ -101,14 +102,16 @@ aside .contact i {
   margin-right: 0.3em;
 }
 
-aside .skills ul {
+aside .skills ul,
+main .projects ul.technologies {
   display: flex;
   flex-wrap: wrap;
   font-size: 0.9em;
   gap: 0.3em;
 }
 
-aside .skills li {
+aside .skills li,
+main .projects ul.technologies li {
   display: inline-block;
   padding: 0.2em 0.4em;
   border: 1px solid white;
@@ -119,6 +122,36 @@ aside .skills li {
 main .projects .project h3 {
   margin: 2em 0 0.5em 0;
   text-decoration: underline;
+}
+
+main .projects ul {
+  position: relative;
+  margin: 0.8em 0;
+}
+
+main .projects li {
+  overflow: hidden;
+}
+
+main .projects li a {
+  position: absolute;
+  left: 0;
+  transition: 0.4s;
+}
+
+main .projects i {
+  position: relative;
+  left: -1.5em;
+  color: var(--light-blue);
+  transition: 0.4s;
+}
+
+main .projects li:hover a {
+  left: 1.5em;
+}
+
+main .projects li:hover i {
+  left: 0;
 }
 
 footer {
