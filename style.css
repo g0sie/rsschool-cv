@@ -30,7 +30,6 @@ footer {
 a {
   color: var(--light-blue);
   text-decoration: none;
-  border-bottom: 0px solid var(--light-blue);
 }
 
 a:hover {
@@ -165,9 +164,21 @@ main .code-example pre span {
 }
 
 footer {
-  display: grid;
   grid-column: span 2;
-  grid-template-columns: repeat(3, 1fr);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 1.5em;
   border-top: var(--border);
   font-size: 2em;
+}
+
+footer a:hover {
+  border: none;
+}
+
+footer img {
+  filter: invert(89%) sepia(3%) saturate(6508%) hue-rotate(172deg)
+    brightness(103%) contrast(123%);
+  height: 2em;
 }
