@@ -29,6 +29,11 @@ footer {
 a {
   color: #b6fdfc;
   text-decoration: none;
+  border-bottom: 0px solid #b6fdfc;
+}
+
+a:hover {
+  border-bottom: 1px solid #b6fdfc;
 }
 
 .cv {
@@ -63,10 +68,6 @@ header img {
   border-radius: 55% 45% 43% 57% / 59% 57% 43% 41%;
 }
 
-aside {
-  border-right: var(--border);
-}
-
 section {
   margin: 6em 2em;
   font-size: 2em;
@@ -89,6 +90,29 @@ section ul {
 }
 
 section span {
+  font-weight: 500;
+}
+
+aside {
+  border-right: var(--border);
+}
+
+aside .contact i {
+  margin-right: 0.3em;
+}
+
+aside .skills ul {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 0.9em;
+  gap: 0.3em;
+}
+
+aside .skills li {
+  display: inline-block;
+  padding: 0.2em 0.4em;
+  border: 1px solid white;
+  border-radius: 0.5em;
   font-weight: 500;
 }
 
