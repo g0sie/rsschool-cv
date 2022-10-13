@@ -13,6 +13,9 @@
 body {
   background-color: #0eb8b5;
   color: white;
+  font-size: 10px;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
 }
 
 .cv,
@@ -21,6 +24,11 @@ aside,
 main,
 footer {
   padding: 20px;
+}
+
+a {
+  color: #b6fdfc;
+  text-decoration: none;
 }
 
 .cv {
@@ -43,6 +51,7 @@ header {
 }
 
 header h1 {
+  font-size: 9.5em;
   font-family: "Roboto Mono", monospace;
   font-weight: bold;
   text-align: center;
@@ -54,8 +63,38 @@ header img {
   border-radius: 55% 45% 43% 57% / 59% 57% 43% 41%;
 }
 
+aside {
+  border-right: var(--border);
+}
+
+section {
+  margin: 6em 2em;
+  font-size: 2em;
+  line-height: 1.5em;
+}
+
 section h2 {
+  font-size: 2.5em;
   font-family: "Roboto Mono", monospace;
+  margin-bottom: 0.8em;
+}
+
+section h3 {
+  font-size: 1.7em;
+  font-weight: 500;
+}
+
+section ul {
+  list-style: none;
+}
+
+section span {
+  font-weight: 500;
+}
+
+main .projects .project h3 {
+  margin: 2em 0 0.5em 0;
+  text-decoration: underline;
 }
 
 footer {
@@ -63,4 +102,5 @@ footer {
   grid-column: span 2;
   grid-template-columns: repeat(3, 1fr);
   border-top: var(--border);
+  font-size: 2em;
 }
