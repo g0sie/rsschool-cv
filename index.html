@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CV - Małgorzata Derkacz</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&family=Ubuntu:wght@300;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- icons -->
+    <script
+      src="https://kit.fontawesome.com/cf72028e0e.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="cv">
+      <header>
+        <h1>Małgorzata Derkacz</h1>
+        <img src="images/miku.jpg" alt="Małgorzata Derkacz" />
+      </header>
+      <nav>
+        <ul>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#languages">Languages</a></li>
+          <li><a href="#profile">Profile</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#code-example">Code Example</a></li>
+        </ul>
+      </nav>
+      <aside>
+        <section class="contact" id="contact">
+          <h2>Contact</h2>
+          <ul>
+            <li><i class="fa-solid fa-location-dot"></i> Wrocław</li>
+            <li>
+              <i class="fa-solid fa-envelope"></i> malgorzataderkacz3@gmail.com
+            </li>
+          </ul>
+        </section>
+        <section class="skills" id="skills">
+          <h2>Skills</h2>
+          <ul>
+            <li>Python</li>
+            <li>Django</li>
+            <li>Django REST Framework - in progress</li>
+            <li>SQL (PostgreSQL)</li>
+            <li>HTML, CSS</li>
+            <li>Javascript, Typescript - in progress</li>
+            <li>React - in progress</li>
+            <li>Git, GitHub</li>
+          </ul>
+        </section>
+        <section class="education" id="education">
+          <h2>Education</h2>
+          <ul>
+            <li>
+              <span>BS in Mathematics</span> - University of Wrocław, 2022
+            </li>
+            <li>
+              <a
+                href="https://drive.google.com/file/d/1xqWvoBXFi1DsfcAzhdgkn5YIHu4EhEBX/view?usp=sharing"
+                ><span>FrontEnd 4 Beginners</span> - DaftAcademy, 2022</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://drive.google.com/file/d/1CsiVBVhp8BBr9EUAD9se1C0-7-HsN2eV/view?usp=sharing"
+                ><span>Python Level UP</span> - DaftAcademy, 2021</a
+              >
+            </li>
+          </ul>
+        </section>
+        <section class="languages" id="languages">
+          <h2>Languages</h2>
+          <ul>
+            <li>
+              <span>English</span> - C2, according to
+              <a href="https://www.efset.org/cert/5y2Qon">EF SET</a>
+            </li>
+            <li><span>Polish</span> - Native</li>
+          </ul>
+        </section>
+      </aside>
+      <main>
+        <section class="profile" id="profile">
+          <h2>Profile</h2>
+          <p>
+            I am a student of mathematics with a bachelor's degree. I want to
+            develop myself as a Full Stack Web Developer with an emphasis on
+            back end. What I love most about math and programming is problem
+            solving and logical thinking. I can easily understand abstract
+            concepts and thus learn quickly.
+          </p>
+        </section>
+        <section class="projects" id="projects">
+          <h2>Projects</h2>
+          <div class="project">
+            <h3>Kendama progress tracker</h3>
+            <ul class="links">
+              <li>
+                <i class="fa-solid fa-hand-point-right"></i>
+                <a href="https://github.com/g0sie/kendama-progress-tracker"
+                  >https://github.com/g0sie/kendama-progress-tracker</a
+                >
+              </li>
+              <li>
+                <i class="fa-solid fa-hand-point-right"></i>
+                <a href="https://your-kendama-trainer.herokuapp.com/"
+                  >https://your-kendama-trainer.herokuapp.com/</a
+                >
+              </li>
+            </ul>
+            <p class="description">
+              An app made for training kendama tricks. You can learn by
+              practicing and reaching next levels. It provides a database of
+              tricks with youtube tutorials and a feature that suggest you a
+              random trick to practice.
+            </p>
+            <ul class="technologies">
+              <li>Django</li>
+              <li>Docker</li>
+              <li>Bootstrap</li>
+            </ul>
+          </div>
+          <div class="project">
+            <h3>Everyday another Wersow's video</h3>
+            <ul class="links">
+              <li>
+                <i class="fa-solid fa-hand-point-right"></i>
+                <a href="https://github.com/g0sie/wersow-project"
+                  >https://github.com/g0sie/wersow-project</a
+                >
+              </li>
+              <li>
+                <i class="fa-solid fa-hand-point-right"></i>
+                <a href="https://wersow.netlify.app/"
+                  >https://wersow.netlify.app/</a
+                >
+              </li>
+              <li>
+                <i class="fa-solid fa-hand-point-right"></i>
+                <a href="https://wersow-api.herokuapp.com/"
+                  >https://wersow-api.herokuapp.com/</a
+                >
+              </li>
+            </ul>
+            <p class="description">
+              Wersow is a Polish youtuber. The app presents another video of her
+              everyday. In the future it will be possible to collect them and
+              comment on them.
+            </p>
+            <ul class="technologies">
+              <li>Django REST Framework</li>
+              <li>React</li>
+              <li>Typescript</li>
+            </ul>
+          </div>
+        </section>
+        <section class="code-example" id="code-example">
+          <h2>Code Example</h2>
+          <pre>
+def ips_between(start: str, end: str) -> int:
+    <span>'''
+    For two IPv4 addresses returns number of addresses between them
+    (including the first one, excluding the last one)
+    '''</span>
+    start_lst = list(map(lambda x: int(x), start.split('.')))
+    end_lst = list(map(lambda x: int(x), end.split('.')))
+    res = sum([2 ** (8 * (3 - i)) * (end_lst[i] - start_lst[i]) for i in range(4)])
+    return res</pre>
+        </section>
+      </main>
+      <footer>
+        <a href="https://github.com/g0sie"
+          ><i class="fa-brands fa-github"></i> @g0sie</a
+        >
+        <p>&copy; October 2022</p>
+        <a href="https://rs.school/index.html"
+          ><img src="images/rs_school.svg" alt="rs-school"
+        /></a>
+      </footer>
+    </div>
+  </body>
+</html>
