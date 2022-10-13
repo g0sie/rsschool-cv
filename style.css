@@ -24,7 +24,7 @@ header,
 aside,
 main,
 footer {
-  padding: 20px;
+  padding: 1em;
 }
 
 a {
@@ -100,7 +100,7 @@ nav {
 nav ul {
   display: flex;
   justify-content: space-between;
-  font-size: 1.8em;
+  font-size: 1.9em;
 }
 
 nav ul li {
@@ -201,6 +201,7 @@ main .projects li:hover i {
 }
 
 main .code-example pre {
+  font-size: 0.95em;
   padding: 2em;
   border-radius: 1em;
   background-color: #10313b;
@@ -228,4 +229,216 @@ footer img {
   filter: invert(89%) sepia(3%) saturate(6508%) hue-rotate(172deg)
     brightness(103%) contrast(123%);
   height: 2em;
+}
+
+@media (max-width: 1552px) {
+  body {
+    font-size: 9px;
+  }
+}
+
+@media (max-width: 1417px) {
+  body {
+    font-size: 8px;
+  }
+
+  .cv,
+  header,
+  aside,
+  main,
+  footer {
+    padding: 0.8em;
+  }
+}
+
+@media (max-width: 1200px) {
+  main .code-example pre {
+    font-size: 0.85em;
+    padding: 1.5em;
+  }
+
+  .cv,
+  header,
+  aside,
+  main,
+  footer {
+    padding: 0.7em;
+  }
+}
+
+@media (max-width: 1168px) {
+  body {
+    font-size: 10px;
+  }
+
+  header h1 {
+    font-size: 7em;
+  }
+
+  aside,
+  main {
+    grid-column: span 2;
+  }
+
+  aside {
+    border: none;
+  }
+
+  section {
+    margin-top: 6em;
+    margin-bottom: 0;
+  }
+
+  footer {
+    margin-top: 6em;
+  }
+}
+
+@media (max-width: 1045px) {
+  body {
+    font-size: 9px;
+  }
+
+  header h1 {
+    font-size: 6em;
+  }
+}
+
+@media (max-width: 850px) {
+  body {
+    font-size: 8px;
+  }
+
+  section,
+  footer {
+    margin-top: 5em;
+  }
+}
+
+@media (max-width: 750px) {
+  header h1 {
+    font-size: 5em;
+  }
+
+  nav ul {
+    font-size: 1.8em;
+  }
+
+  section,
+  footer {
+    margin-top: 4em;
+  }
+
+  main .code-example pre {
+    font-size: 0.8em;
+    padding: 1.3em;
+  }
+}
+
+@media (max-width: 750px) {
+  main .code-example pre {
+    padding: 1em;
+  }
+}
+
+@media (max-width: 710px) {
+  nav ul {
+    flex-direction: column;
+  }
+
+  nav ul li,
+  nav ul li:first-child {
+    border: none;
+  }
+
+  section {
+    margin-left: 0.7em;
+    margin-right: 0.7em;
+  }
+
+  main .code-example pre {
+    padding: 0.5em;
+  }
+}
+
+@media (max-width: 660px) {
+  section {
+    margin-left: 0.4em;
+    margin-right: 0.4em;
+  }
+}
+
+@media (max-width: 650px) {
+  section {
+    margin-left: 0.3em;
+    margin-right: 0.3em;
+  }
+}
+
+@media (max-width: 640px) {
+  section {
+    margin-left: 0.2em;
+    margin-right: 0.2em;
+  }
+
+  section h2 {
+    font-size: 2em;
+  }
+
+  section h3 {
+    font-size: 1.5em;
+  }
+
+  main .code-example pre {
+    overflow: auto;
+  }
+}
+
+@media (max-width: 630px) {
+  header h1 {
+    font-size: 4em;
+  }
+}
+
+@media (max-width: 520px) {
+  header h1 {
+    font-size: 3em;
+  }
+
+  section h2 {
+    font-size: 1.5em;
+  }
+
+  section h3 {
+    font-size: 1em;
+  }
+}
+
+@media (max-width: 400px) {
+  body {
+    font-size: 7px;
+  }
+}
+
+@media (max-width: 320px) {
+  header h1::after {
+    animation: none;
+  }
+
+  footer {
+    flex-direction: column;
+    justify-content: space-between;
+    height: 10em;
+  }
+}
+
+/* mobile */
+@media only screen and (hover: none) and (pointer: coarse) {
+  main .projects li a {
+    position: static;
+  }
+
+  main .projects i {
+    position: static;
+  }
 }
