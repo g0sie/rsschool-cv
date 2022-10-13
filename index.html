@@ -160,15 +160,14 @@
           <h2>Code Example</h2>
           <pre>
 def ips_between(start: str, end: str) -> int:
-    '''
+    <span>'''
     For two IPv4 addresses returns number of addresses between them
     (including the first one, excluding the last one)
-    '''
+    '''</span>
     start_lst = list(map(lambda x: int(x), start.split('.')))
     end_lst = list(map(lambda x: int(x), end.split('.')))
     res = sum([2 ** (8 * (3 - i)) * (end_lst[i] - start_lst[i]) for i in range(4)])
-    return res
-          </pre>
+    return res</pre>
         </section>
       </main>
       <footer>

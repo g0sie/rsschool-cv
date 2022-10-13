@@ -154,6 +154,16 @@ main .projects li:hover i {
   left: 0;
 }
 
+main .code-example pre {
+  padding: 2em;
+  border-radius: 1em;
+  background-color: #10313b;
+}
+
+main .code-example pre span {
+  color: #348965;
+}
+
 footer {
   display: grid;
   grid-column: span 2;
